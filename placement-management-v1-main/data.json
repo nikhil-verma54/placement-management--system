@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "name": "Paramjeet",
+      "year": "1st Year",
+      "email": "test0@example.com",
+      "semester": "1",
+      "phoneNumber": "7845124578",
+      "password": "7845124545",
+      "college": "Gyan Ganga",
+      "branch": "CSE",
+      "id": 1
+    },
+    {
+      "name": "gravity coding",
+      "year": "2nd Year",
+      "email": "john@example.com",
+      "semester": "3",
+      "phoneNumber": "7845457878",
+      "password": "787878788",
+      "college": "Trinity",
+      "branch": "CSE",
+      "id": 2
+    },
+    {
+      "name": "Paramjeet",
+      "year": "2nd Year",
+      "email": "test0@example.com",
+      "semester": "1",
+      "phoneNumber": "78788777887",
+      "password": "asdasdasd",
+      "college": "asdasd",
+      "branch": "AI",
+      "id": 3
+    },
+    {
+      "name": "Paramjeet",
+      "year": "2nd Year",
+      "email": "test0@example.com",
+      "semester": "1",
+      "phoneNumber": "78788777887",
+      "password": "asdasdasd",
+      "college": "asdasd",
+      "branch": "AI",
+      "id": 4
+    },
+    {
+      "name": "Paramjeet",
+      "year": "2nd Year",
+      "email": "test0@example.com",
+      "semester": "1",
+      "phoneNumber": "78788777887",
+      "password": "asdasdasd",
+      "college": "asdasd",
+      "branch": "AI",
+      "id": 5
+    },
+    {
+      "email": "test0@example.com",
+      "password": "sad",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+#user-sideNav-btn {
+  position: fixed;
+  top: 2%;
+  left: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+}

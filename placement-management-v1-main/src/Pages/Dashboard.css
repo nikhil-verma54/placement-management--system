@@ -1,0 +1,61 @@
+.gc-dashboard {
+  width: 100%;
+  min-height: 100vh;
+  padding: 4vw 5vw;
+}
+.gc-dashboard .gc-dashboard-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gc-dashboard .gc-admin-all-stats {
+  padding: 4vh 0vh;
+}
+.gc-dashboard .gc-admin-all-stats .gc-stats-box {
+  background: #2476e0;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13.6px);
+  -webkit-backdrop-filter: blur(13.6px);
+  border: 1px solid rgba(24, 133, 255, 0.3);
+  color: #fff;
+}
+.gc-dashboard .gc-stats-box .gc-stats-icon {
+  color: #fff;
+}
+.gc-user-dash-stats {
+  width: 100%;
+  display: flex;
+}
+
+.gc-dashboard-process .circular-graph {
+  padding: 2vw;
+  margin-top: 5vh;
+  width: 25%;
+  min-height: 50vh;
+  position: relative;
+}
+.gc-dashboard-select-date {
+  position: absolute;
+  width: 30%;
+  height: 4vh;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gc-user-applied-companies {
+  width: 75%;
+  height: 50vh;
+  padding: 2vw 5vw;
+}
+.gc-user-applied-companies table {
+  margin-top: 2vh;
+}
+.gc-user-applied-companies table td,
+.gc-user-applied-companies table th {
+  border: 0px;
+  padding: 2vh 1vh;
+  border-bottom: 1px solid gray;
+}

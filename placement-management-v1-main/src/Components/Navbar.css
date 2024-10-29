@@ -1,0 +1,163 @@
+.gc-navbar {
+  width: 100%;
+  height: 10vh;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gc-nav-layout {
+  width: 80%;
+  height: 75%;
+  background: #3177ff;
+  /* border: 2px solid #fff; */
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.4px);
+  -webkit-backdrop-filter: blur(4.4px);
+  display: flex;
+  justify-content: space-between;
+  padding: 0vw 0.5vw;
+  color: #fff;
+  transition: all cubic-bezier(0.23, 1, 0.32, 1) 0.4s;
+}
+.gc-nav-left {
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+}
+.gc-nav-middle {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.gc-nav-middle ul {
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  font-size: 1vw;
+}
+.gc-nav-middle ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.gc-nav-rght {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+}
+.gc-nav-rght button {
+  padding: 0.5vw 1vw;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background: none;
+}
+.gc-nav-rght button a {
+  text-decoration: none;
+  color: inherit;
+}
+#gc-login {
+  border: 2px solid #fff;
+  color: #fff;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.4s;
+}
+#gc-login:hover {
+  background-color: #fff;
+  color: black;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.4s;
+}
+#gc-signup {
+  border: 2px solid #fff;
+  background: #fff;
+  color: #0a0a0a;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.4s;
+}
+#gc-signup:hover {
+  background-color: #3177ff;
+  color: #fff;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.4s;
+}
+
+.gc-nav-rght i {
+  font-size: 5vw;
+  display: none;
+}
+
+.gc-respo-nav {
+  display: none;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+@media (max-width: 500px) {
+  .gc-nav-middle,
+  #gc-login,
+  #gc-signup {
+    display: none;
+  }
+  .gc-nav-layout {
+    width: 100%;
+    padding: 0vw 5vw;
+  }
+  .gc-nav-left {
+    font-size: 5vw;
+  }
+  .gc-nav-rght i {
+    display: initial;
+  }
+  .gc-respo-nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+    left: 100%;
+    display: initial;
+    width: 100%;
+    height: 100vh;
+    background-color: #3177ff;
+    z-index: 9999;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  }
+  .gc-respo-nav .gc-nav-middle {
+    display: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+    height: 70vh !important;
+  }
+  .gc-respo-nav .gc-nav-middle ul {
+    flex-direction: column;
+  }
+  .gc-respo-nav .gc-nav-middle ul li {
+    font-size: 7vw;
+  }
+  .gc-respo-nav .ri-close-circle-line {
+    position: absolute;
+    top: 2%;
+    right: 7%;
+    font-size: 7vw;
+    color: #fff;
+  }
+  .gc-respo-nav .gc-nav-rght {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vw;
+    width: 100%;
+    height: 30vh;
+  }
+  .gc-respo-nav #gc-login,
+  .gc-respo-nav #gc-signup {
+    display: initial;
+  }
+  .gc-respo-nav .gc-nav-rght button {
+    padding: 1rem 2rem;
+  }
+}

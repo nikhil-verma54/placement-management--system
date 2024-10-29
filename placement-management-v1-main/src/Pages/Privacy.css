@@ -1,0 +1,54 @@
+.gc-privacy {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+  padding: 5vw 10vw;
+}
+
+.gc-privacy a {
+  color: #fff;
+}
+
+.gc-privacy h1 {
+  font-size: 3vw;
+  margin-bottom: 5vh;
+}
+
+.gc-privacy h2 {
+  font-size: 2vw;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.gc-privacy h3 {
+  font-size: 1.5vw;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.gc-privacy p,
+.gc-privacy li {
+  width: 85%;
+}
+
+@media (max-width: 500px) {
+  .gc-privacy h1 {
+    font-size: 2rem;
+    margin-bottom: 5vh;
+  }
+  .gc-privacy h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+  .gc-privacy h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+  .gc-privacy p,
+  .gc-privacy li {
+    width: 100%;
+  }
+}

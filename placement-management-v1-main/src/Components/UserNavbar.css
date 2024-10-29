@@ -1,0 +1,44 @@
+.gc-user-dashboard {
+  width: 100%;
+  min-height: 100vh;
+}
+.gc-dash-left {
+  height: 100%;
+  background-color: #fff;
+  color: #333;
+}
+.gc-dash-left .gc-user-nav {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: #333;
+  gap: 1vh;
+  height: 40vh;
+  transition: all cubic-bezier(0.23, 1, 0.32, 1) 0.4s;
+}
+
+.gc-user-nav-icons {
+  width: 100%;
+  /* background: green; */
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 1vw;
+  padding-left: 1vw;
+  gap: 0.5rem;
+}
+.gc-user-nav-icons a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.gc-user-nav-icons:hover {
+  cursor: pointer;
+  background-color: #cbcbcb;
+  color: blue;
+  border-left: 10px solid blue;
+  transition: all cubic-bezier(0.23, 1, 0.32, 1) 0.4s;
+}

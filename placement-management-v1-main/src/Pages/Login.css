@@ -1,0 +1,142 @@
+.gc-login {
+  width: 100%;
+  height: 100vh;
+  /* background-color: orange; */
+}
+
+.gc-login-lft {
+  width: 60%;
+  height: 100%;
+  background-color: white;
+  padding-left: 10vw;
+  gap: 1.5vh !important;
+}
+
+.gc-login-lft h1 {
+  font-size: 3rem !important;
+}
+
+.gc-form-login label {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.gc-form-login input {
+  width: 25vw;
+  height: 6vh;
+  padding: 0vw 1vw;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 10px !important;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.gc-cta-btn {
+  padding: 1vw 4vw;
+  font-size: 1.1rem;
+  background-color: #3177ff !important;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  width: 100%;
+  font-weight: 500;
+}
+
+.gc-cta-login p {
+  font-size: 1.1rem;
+  color: #868686;
+  font-weight: 500;
+}
+
+.gc-cta-login p a {
+  text-decoration: none;
+  color: #3177ff;
+  font-weight: 600;
+}
+
+.gc-cta-login p a:hover {
+  text-decoration: underline;
+}
+
+.gc-login-rght {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  /* gap: 10vh; */
+  width: 35% !important;
+  height: 100%;
+  background-color: #fff !important;
+  
+}
+
+.gc-login-rght h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-top: 10vh;
+  color: #333 !important;
+}
+
+.gc-login-rght img {
+  width: 80% !important;
+  margin-right: 10vw;
+}
+
+.mainPLogin{
+  font-size: 1rem;
+  color: #8d8d8d;
+  margin-bottom: 3vh;
+}
+
+.gc-login-email, .gc-login-password{
+  background-color: #f0f0f0;
+  padding-left: 0.5rem;
+  border-radius: 10px;
+}
+
+.gc-login-email i, .gc-login-password i{
+  color: #3177ff;
+  background-color: #fff;
+  padding: 0.5vw 0.7vw;
+  border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+  .gc-login {
+    flex-direction: column-reverse;
+  }
+  .gc-login-rght {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: 50%;
+  }
+  .gc-login-rght h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-top: 5vh;
+    color: #fff;
+  }
+  .gc-login-rght img {
+    width: 50vw !important;
+  }
+  .gc-login-lft {
+    width: 100%;
+    padding-right: 2vw;
+    /* gap: 3vh; */
+  }
+  .gc-login-lft h1 {
+    font-size: 2.5rem !important;
+  }
+  .gc-form-login input {
+    width: 70vw;
+    padding-left: 5vw;
+  }
+  .gc-cta-btn {
+    padding: 3vw 10vw;
+  }
+
+}

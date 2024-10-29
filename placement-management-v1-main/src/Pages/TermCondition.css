@@ -1,0 +1,54 @@
+.gc-term-condition {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+  padding: 5vw 10vw;
+}
+
+.gc-term-condition a {
+  color: #fff;
+}
+
+.gc-term-condition h1 {
+  font-size: 3vw;
+  margin-bottom: 5vh;
+}
+
+.gc-term-condition h2 {
+  font-size: 2vw;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.gc-term-condition h3 {
+  font-size: 1.5vw;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.gc-term-condition p,
+.gc-term-condition li {
+  width: 85%;
+}
+
+@media (max-width: 500px) {
+  .gc-term-condition h1 {
+    font-size: 2rem;
+    margin-bottom: 5vh;
+  }
+  .gc-term-condition h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+  .gc-term-condition h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+  .gc-term-condition p,
+  .gc-term-condition li {
+    width: 100%;
+  }
+}

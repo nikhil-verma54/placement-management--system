@@ -1,0 +1,56 @@
+.gc-admin-dashboard {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+}
+.gc-admin-bodycontainer {
+  padding: 5vw;
+  color: #0a0a0a;
+}
+.gc-admin-all-stats {
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  padding: 4vh 0vh;
+  justify-content: space-evenly;
+}
+
+.gc-admin-all-stats .gc-stats-box {
+  width: 20vw;
+  height: 15vh;
+  border-radius: 10px;
+  background: #3176ff;
+  color: #fff;
+  display: flex;
+  padding: 0 1vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.gc-stats-box .gc-stats-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  color: #fff;
+}
+
+.gc-admin-tables {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.gc-admin-tables .gc-table-division-1 {
+  width: 55%;
+  padding: 2vw 1vw;
+  color: #3176ff;
+  background: #fff;
+  border-radius: 10px;
+}
+.gc-admin-tables .gc-table-division-2 {
+  width: 40%;
+  padding: 2vw 1vw;
+  color: #3176ff;
+  border-radius: 10px;
+  background: #fff;
+}

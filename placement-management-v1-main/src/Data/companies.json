@@ -1,0 +1,43 @@
+{
+    "companies": [
+        {
+            "name": "Deloitte",
+            "industry": "Professional Services",
+            "foundation_date": "1845",
+            "company_logo": "https://play-lh.googleusercontent.com/awEH29Np0Y0GUEHWUziM8ICj3wlFIf0q_CwjUfkSJfMB_clyvpnGEEzmUPFxQf46Ew",
+            "headquarters": {
+                "city": "New York City",
+                "state": "New York",
+                "country": "USA"
+            },
+            "size": "1000-5000 employees",
+            "date": "15th May, 2024"
+        },
+        {
+            "name": "PwC (PricewaterhouseCoopers)",
+            "industry": "Professional Services",
+            "foundation_date": "1998",
+            "company_logo": "https://appexchange.salesforce.com/partners/servlet/servlet.FileDownload?file=00P3000000P3QO0EAN",
+            "headquarters": {
+                "city": "London",
+                "state": "England",
+                "country": "UK"
+            },
+            "size": "200-500 employees",
+            "date": "16th May, 2024"
+        },
+        {
+            "name": "KPMG",
+            "industry": "Professional Services",
+            "foundation_date": "1987",
+            "company_logo": "https://wia-initiative.com/wp-content/uploads/2023/01/KPMG.png",
+            "headquarters": {
+                "city": "Amsterdam",
+                "state": "North Holland",
+                "country": "Netherlands"
+            },
+            "size": "50-100 employees",
+            "date": "18th May, 2024"
+        }
+    ]
+}

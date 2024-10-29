@@ -1,0 +1,73 @@
+#gc-error-page{
+    width: 100%;
+    height: 100vh;
+}
+
+.gcer-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-image: url('./CareerArc404.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.gcer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.gcer-heading {
+  font-size: 20rem;
+}
+
+#gcer-p {
+  font-weight: 600;
+}
+
+#gcer-0 {
+  display: none;
+  font-size: 10rem;
+}
+
+#gcer-res-p {
+  display: none;
+}
+
+/* responsive part */
+@media (max-width: 500px) {
+  .gcer-main {
+    background-image: url(https://images.unsplash.com/photo-1706720097535-b92d47fef3b9?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  .gcer-heading {
+    font-size: 10rem;
+  }
+  #gcer-0 {
+    display: initial;
+  }
+  #gcer-p {
+    display: none;
+  }
+  .gcer-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #gcer-res-p {
+    display: initial;
+    font-size: 7vw;
+  }
+  .gcer-main a {
+    bottom: 9vh !important;
+    font-size: 5vw !important;
+    padding: 1rem 2rem !important;
+    background-image: none !important;
+    background-color: transparent !important;
+    border: 1px solid #fff !important;
+  }
+}
