@@ -1,4 +1,4 @@
-Placement Tracking System
+Placement Tracking System _ Overview
 This Placement Tracking System is designed to simplify and streamline the placement process for both students and staff. It provides an intuitive interface and tools to help manage the placement journey from beginning to end, fostering greater organization, transparency, and ease. The system aims to enhance coordination, reduce errors, and improve overall efficiency in managing placement activities.
 
 Key Features
